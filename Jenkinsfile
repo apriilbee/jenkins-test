@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Stage 1: Build') {
+        stage('Stage 1: Build ') {
             steps {
                 echo 'Build the code using a build automation tool (e.g., Maven) to compile and package the application.'
             }
